@@ -1,0 +1,168 @@
+@font-face {
+  font-family: SF;
+  src: url(./SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(28, 28, 28);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background-color: #161617cc;
+  backdrop-filter: blur(20px);
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+nav h1 {
+  color: rgba(255, 255, 255, 0.801);
+  font-weight: 300;
+  font-size: 12px;
+}
+
+nav i {
+  font-size: 18px;
+  color: #bcbcbc;
+}
+
+section{
+    background-color: #000000;
+}
+
+#hero {
+  background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 80px;
+  cursor: pointer;
+}
+
+#hero h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+#hero h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 17px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+#b1 {
+  background-color: #0077ed;
+  color: white;
+  border: none;
+}
+
+#b2 {
+  background-color: transparent;
+  color: #0077ed;
+  border: 1px #0077ed solid;
+}
+
+#b2:hover {
+  background-color: #0077ed;
+  color: white;
+  border: 1px #0077ed solid;
+}
+
+#hero2 {
+  background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_large.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 85vh;
+  color: #1d1d1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 50px;
+  cursor: pointer;
+  scale: 0.95;
+}
+
+#hero2 h1 {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+#hero2 h2 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+#section2 {
+  padding: 2px;
+  background-color: #f5f5f7;
+}
+
+#hero3 {
+  background-image: url(https://www.apple.com/v/home/ci/images/heroes/macbook-pro-m5/hero_macbook_pro_m5__fjgmapbkxo2u_large.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 85vh;
+  color: #F5F5F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 50px;
+  cursor: pointer;
+  scale: 0.95;
+}
+
+#hero3 h1 {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+#hero3 h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+#section3 {
+  padding: 2px;
+  background-color: #000000;
+}
